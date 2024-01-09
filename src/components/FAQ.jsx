@@ -3,24 +3,24 @@ import { motion } from "framer-motion";
 
 const FAQData = [
   {
-    question: "Can I upgrade or downgrade my plan at any time?",
+    question: "Do you offer only a full cycle of development?",
     answer:
-      "Yes, you can easily upgrade or downgrade your plan at any time. Simply navigate to the account settings in your dashboard and choose the desired plan. The changes will be reflected immediately, and any adjustments in pricing will be applied on your next billing cycle. Our support team is more than happy to provide guidance and recommendations.",
+    "No, our AgencI offers consulting and partial solutions too. We assist businesses in their desire to involve more AI in their solutions. This way we can develop a Business case or Build a Strategy for the company. We can also develop a brand-new solution according to the established Strategy and Business goal. "
   },
   {
-    question: "How to claim your 25% discount offer?",
+    question: "Why do you include Business case and Strategy development in your project-cycle?",
     answer:
-      "To claim your 25% discount, simply sign up for an account and enter the promotional code at checkout. The discount will be applied automatically to your purchase.",
-  },
+    "AI technologies are very popular and indeed are capable of providing novel solutions to the old problems. However, our AgencI strives for development of the human-centered and reliable projects. This implies that we don't want just to help you add AI to your business but we want it to be actually useful and feasible."  
+},
   {
-    question: "What's your refund policy?",
+    question: "What is the timeline of AI devlopment stage?",
     answer:
-      "We offer a 30-day money-back guarantee on all our plans. If you're not satisfied with our product, simply contact our support team within 30 days of purchase for a full refund.",
-  },
+    "Depending on the complexity of the project this may take from 2 weeks to 3 months of Development and Testing of the software. The timeline strongly correlates with inclusion of other technical features of the product such as Database management or Web Interface design. No worries, our specialists know how to scale! "
+    },
   {
-    question: "How to get support for the product?",
+    question: "Why do I need maintenance?",
     answer:
-      "Our dedicated support team is here to help. You can reach out to us through the contact form on our website, send an email, or engage with us via live chat. We'll be happy to assist you with any questions or concerns you may have",
+    "Any piece of software has multiple cycles of development. After the product sees its first users - there will definitely be points of improvement. Our maintenance includes further fine-tuning of the chatbot, analysis of logs of the conversations and assurance in strong correspondence of the bot functionality with its primary goals.",
   },
 ];
 
