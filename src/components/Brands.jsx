@@ -11,7 +11,7 @@ import {WaitlerLogo} from "../assets/logos/WaitlerLogo"
 import {AnyHouseLogo} from "../assets/logos/AnyHouseLogo"
 
 export const Brands = () => (
-  <section className="py-12 sm:py-24 bg-customDarkBg1 w-full mt-16 mb-16">
+  <section id="brands" className="py-12 sm:py-24 h-screen bg-customDarkBg1 w-full mt-16 mb-16">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}

@@ -9,10 +9,10 @@ export const Hero = () => {
 
   return (
     <section
-      className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
-      id="home"
-    >
-      <div className="w-full md:w-[800px] xl:w-[900px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
+  className="w-screen flex justify-center items-center bg-customDarkBg1 mb-20 md:mb-12 lg:mb-8 xl:mb-10 2xl:mb-16 hero-bg-gradient pb-12 sm:pb-16 md:pb-20 lg:pb-0"
+  id="home"
+>
+  <div className="w-full md:w-[700px] xl:w-[800px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
@@ -77,7 +77,7 @@ export const Hero = () => {
             />
           </div>
         </motion.div> */}
-        <div className="relative w-screen flex justify-center ">
+        {/* <div className="relative w-screen flex justify-center ">
           <div className="custom-shape-divider-bottom-1665343298 mt-4 sm:mt-16 md:mt-52 hidden lg:block">
             <svg
               data-name="Layer 1"
@@ -92,7 +92,7 @@ export const Hero = () => {
               ></path>
             </svg>
           </div>
-        </div>
+        </div> */}
       </div>
       {isModalOpen && (
         <InvitationModal isOpen={isModalOpen} setIsOpen={setIsModalOpen} />
