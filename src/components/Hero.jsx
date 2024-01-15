@@ -27,10 +27,11 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
-            <span className="inline md:hidden">Artificial Intelligence</span>
-            <span className="hidden md:inline">Human <span className="italic">agency</span> meets AI technologies</span>
-          </div>
+          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide text-white px-8 sm:px-8 md:px-20 lg:px-4">
+  <span className="md:hidden block">Artificial Intelligence</span> {/* The "block" class will make sure this span takes the full width and wraps onto the next line */}
+  <span className="hidden md:block">Human <span className="italic font-thin">agency</span> meets AI technologies</span>
+</div>
+
           {/* <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
             intelligent technologies
           </div> */}
@@ -52,15 +53,13 @@ export const Hero = () => {
           <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-24 sm:mb-40 justify-center">
             <div
               className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
-              onClick={() => setIsModalOpen(true)}
             >
-              Book a Call
+              <a href="https://calendly.com/yevhenii-budnyk">Book a Call</a>
             </div>
             <div
               className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3 border-customPrimary transition"
-              onClick={() => setIsModalOpen(true)}
             >
-              Collaborate with Us
+              <a href="https://1qjcn52krxc.typeform.com/to/tPgi0YGC?typeform-source=agenci-website.vercel.app">Collaborate with Us</a>
             </div>
           </div>
         </motion.div>
