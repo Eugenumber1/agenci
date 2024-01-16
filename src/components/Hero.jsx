@@ -27,10 +27,13 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.05 }}
         >
-          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide text-white px-8 sm:px-8 md:px-20 lg:px-4">
-  <span className="md:hidden block">Artificial Intelligence</span> {/* The "block" class will make sure this span takes the full width and wraps onto the next line */}
-  <span className="hidden md:block">Human <span className="italic font-thin">agency</span> meets AI technologies</span>
-</div>
+          <div className="text-5xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-8 md:px-20 lg:px-4">
+            <span className="inline md:hidden">Artificial Intelligence consulting</span>
+            <span className="hidden md:inline">Human <span className="italic font-thin">agency</span> meets </span>
+          </div>
+          <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
+           AI technologies
+          </div>
 
           {/* <div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
             intelligent technologies

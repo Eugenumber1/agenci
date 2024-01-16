@@ -44,7 +44,7 @@ export const Features1 = () => {
               </ul>
             </div>
           </div>
-          <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8">
+          <div className="w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 lg:pt-10 justify-center lg:pl-4 xl:px-8" style={{marginTop: "40px"}}>
             <div className="mb-8 lg:mb-0 w-full sm:w-1/2 px-2 lg:px-0">
   <div className="relative mb-4 py-3 pl-3 pr-2 rounded">
     <svg viewBox="0 0 444 444" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,10 +52,10 @@ export const Features1 = () => {
       <path d="M95 17C95 13.134 98.134 10 102 10H116C119.866 10 123 13.134 123 17C123 20.866 119.866 24 116 24H102C98.134 24 95 20.866 95 17Z" fill="#D9D9D9"/>
       <path d="M14 17C14 13.134 17.134 10 21 10H78C81.866 10 85 13.134 85 17C85 20.866 81.866 24 78 24H21C17.134 24 14 20.866 14 17Z" fill="#A2A3F7"/>
     </svg>
-    <div className="absolute inset-0 flex flex-col justify-center" style={{ padding: '10px' }}>
-      <div className="text-zinc-300 text-3xl font-bold font-['Fira Sans']" style={{ marginBottom: '20px', marginLeft: "20px" }}>AI Strategy</div>
-      <div className="text-gray-100 text-[18px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
-        <p>Every project starts with a goal. Every goal should align with the strategy. We will develop the latter for you.</p>
+    <div className="absolute inset-0 flex flex-col" style={{ padding: '10px' }}>
+      <div className="text-zinc-300 text-2xl font-bold font-['Fira Sans']" style={{ marginBottom: '20px', marginLeft: "20px", marginTop: "30px"}}>AI Strategy</div>
+      <div className="text-gray-100 text-[16px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
+        <p style={{paddingRight: "10px"}}>Every project starts with a goal. Every goal should align with the strategy. We will develop the latter for you.</p>
       </div>
     </div>
   </div>
@@ -64,10 +64,10 @@ export const Features1 = () => {
       <path d="M0 16C0 7.16343 7.16344 0 16 0H428C436.837 0 444 7.16344 444 16V428C444 436.837 436.837 444 428 444H16C7.16343 444 0 436.837 0 428V16Z" fill="#303136"/>
       <path d="M339 30C339 26.134 342.134 23 346 23H403C406.866 23 410 26.134 410 30C410 33.866 406.866 37 403 37H346C342.134 37 339 33.866 339 30Z" fill="#A2A3F7"/>
 </svg>
-<div className="absolute inset-0 flex flex-col justify-center" style={{ padding: '10px' }}>
-<div className="text-zinc-300 text-3xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px' }}>AI Development</div>
-<div className="text-gray-100 text-[18px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
-Once the goals and prerequisites are clear - lets build the software.
+<div className="absolute inset-0 flex flex-col " style={{ padding: '10px' }}>
+<div className="text-zinc-300 text-2xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px', marginTop: "30px" }}>AI Development</div>
+<div className="text-gray-100 text-[16px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
+<p style={{paddingRight: "10px"}}>Once the goals and prerequisites are clear - lets build the software.</p>
 </div>
 </div>
 
@@ -80,10 +80,10 @@ Once the goals and prerequisites are clear - lets build the software.
       <path d="M14 17C14 13.134 17.134 10 21 10H35C38.866 10 42 13.134 42 17C42 20.866 38.866 24 35 24H21C17.134 24 14 20.866 14 17Z" fill="#D9D9D9"/>
       <path d="M52 17C52 13.134 55.134 10 59 10H116C119.866 10 123 13.134 123 17C123 20.866 119.866 24 116 24H59C55.134 24 52 20.866 52 17Z" fill="#A2A3F7"/>
     </svg>
-    <div className="absolute inset-0 flex flex-col justify-center px-3" style={{ padding: '10px' }}>
-      <div className="text-zinc-300 text-3xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px' }}>Business goal</div>
-      <div className="text-gray-100 text-[18px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
-        Define your business objective and desired results that you would like to achieve with a new AI system.
+    <div className="absolute inset-0 flex flex-col px-3" style={{ padding: '10px' }}>
+      <div className="text-zinc-300 text-2xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px', marginTop: "30px" }}>Business goal</div>
+      <div className="text-gray-100 text-[16px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
+        <p style={{paddingRight: "10px"}}>Define your business objective and desired results that you would like to achieve with a new AI system.</p>
       </div>
     </div>
   </div>
@@ -92,10 +92,10 @@ Once the goals and prerequisites are clear - lets build the software.
       <path d="M0 16C0 7.16343 7.16344 0 16 0H428C436.837 0 444 7.16344 444 16V428C444 436.837 436.837 444 428 444H16C7.16343 444 0 436.837 0 428V16Z" fill="#303136"/>
       <path d="M382 400C382 396.134 385.134 393 389 393H403C406.866 393 410 396.134 410 400C410 403.866 406.866 407 403 407H389C385.134 407 382 403.866 382 400Z" fill="#D9D9D9"/>
     </svg>
-    <div className="absolute inset-0 flex flex-col justify-center px-3" style={{ padding: '10px' }}>
-      <div className="text-zinc-300 text-3xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px' }}>Maintenance</div>
-<div className="text-gray-100 text-[18px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
-Observe and control the system to assure the added value to your business.
+    <div className="absolute inset-0 flex flex-col px-3" style={{ padding: '10px' }}>
+      <div className="text-zinc-300 text-2xl font-bold font-['Fira Sans']" style={{ marginBottom: '30px', marginLeft: '20px', marginTop: "30px" }}>Maintenance</div>
+<div className="text-gray-100 text-[16px] font-normal font-['IBM Plex Sans']" style={{ maxWidth: '100%', marginLeft: "20px" }}>
+<p style={{paddingRight: "10px"}}>Observe and control the system to assure the added value to your business.</p>
 </div>
 </div>
 
