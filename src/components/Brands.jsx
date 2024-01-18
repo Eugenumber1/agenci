@@ -9,9 +9,10 @@ import { StripeLogo } from "../assets/logos/StripeLogo";
 import {ZgtLogo} from "../assets/logos/ZgtLogo"
 import {WaitlerLogo} from "../assets/logos/WaitlerLogo"
 import {AnyHouseLogo} from "../assets/logos/AnyHouseLogo"
+import { CreativeMulesLogo } from "../assets/logos/CMLogo";
 
 export const Brands = () => (
-  <section id="brands" className="py-12 sm:py-24 h-screen bg-customDarkBg1 w-full mt-16 mb-16">
+  <section id="brands" className="py-12 sm:py-24 h-1/3 bg-customDarkBg1 w-full mt-16 mb-16">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -32,25 +33,28 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
                 <ZgtLogo />
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex  justify-center">
                 <AnyHouseLogo />
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex  justify-center">
+              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
                 <WaitlerLogo />
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
+                <CreativeMulesLogo />
+              </div>
+              {/* {/* <div className="w-1 sm:w-1/3 py-6 mx-5 flex justify-center">
                 <StripeLogo />
               </div>
 
-              <div className="w-1/2 sm:w-1/3 py-6 flex justify-center">
+              <div className="w-1 sm:w-1/3 py-6 mx-5 flex justify-center">
                 <SpotifyLogo />
               </div>
-              <div className="w-1/2 sm:w-1/3  py-6 flex  justify-center">
-                <SlackLogo />
-              </div>
+              <div className="w-1 sm:w-1/3  py-6 mx-5 flex  justify-center">
+                <SlackLogo /> 
+              </div> */}
             </div>
           </div>
         </div>

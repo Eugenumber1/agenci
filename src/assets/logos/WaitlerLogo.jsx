@@ -6,8 +6,8 @@ export const WaitlerLogo = () => (
 <img 
     src={newLogo} 
     alt="Waitler Logo" 
-    width="107" 
-    height="32" 
+    width="200" 
+    height="60" 
     style={{ filter: 'grayscale(100%) brightness(60%) contrast(90%)' }}  
   />
 );

@@ -1,11 +1,11 @@
 import React from 'react';
-import newLogo from '../images/anyhouse_2.png'; // Adjust the path as necessary
+import newLogo from '../images/cm_logo.svg'; // Adjust the path as necessary
 
 
-export const AnyHouseLogo = () => (
+export const CreativeMulesLogo = () => (
 <img 
     src={newLogo} 
-    alt="AnyHouse Logo" 
+    alt="Creative Mules Logo" 
     width="200" 
     height="60" 
     style={{ filter: 'grayscale(100%) brightness(60%) contrast(90%)' }}  
