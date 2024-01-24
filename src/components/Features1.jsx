@@ -73,7 +73,7 @@ export const Features1 = () => {
 
   </div>
 </div>
-            <div className="w-1/2 lg:mt-20 pt-12 lg:pt-0 px-2 hidden sm:inline-block">
+            <div className="w-full sm:w-1/2 lg:mt-20 pt-12 lg:pt-0 px-2 sm:inline-block">
   <div className="relative mb-4 py-3 pl-3 pr-2 rounded-lg">
     <svg viewBox="0 0 444 444" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 16C0 7.16343 7.16344 0 16 0H428C436.837 0 444 7.16344 444 16V428C444 436.837 436.837 444 428 444H16C7.16343 444 0 436.837 0 428V16Z" fill="#303136"/>

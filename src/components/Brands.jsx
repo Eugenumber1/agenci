@@ -1,11 +1,4 @@
 import { motion } from "framer-motion";
-
-import { AmazonLogo } from "../assets/logos/AmazonLogo";
-import { DropboxLogo } from "../assets/logos/DropboxLogo";
-import { NetflixLogo } from "../assets/logos/NetflixLogo";
-import { SlackLogo } from "../assets/logos/SlackLogo";
-import { SpotifyLogo } from "../assets/logos/SpotifyLogo";
-import { StripeLogo } from "../assets/logos/StripeLogo";
 import {ZgtLogo} from "../assets/logos/ZgtLogo"
 import {WaitlerLogo} from "../assets/logos/WaitlerLogo"
 import {AnyHouseLogo} from "../assets/logos/AnyHouseLogo"
@@ -33,28 +26,19 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
-                <ZgtLogo />
+              <div className="w-1/2 py-6 flex justify-center">
+                <a href="https://www.zgt.nl/"><ZgtLogo /></a>
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex  justify-center">
-                <AnyHouseLogo />
+              <div className="w-1/2 py-6 flex justify-center">
+                <a href="https://anyhouse.me/"><AnyHouseLogo /></a>
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
-                <WaitlerLogo />
+              <div className="w-1/2 py-6 flex justify-center">
+                <a href="https://www.waitler.com/"><WaitlerLogo/></a>
               </div>
-              <div className="w-1/2 sm:w-1/3 py-6 mx-5 flex justify-center">
-                <CreativeMulesLogo />
-              </div>
-              {/* {/* <div className="w-1 sm:w-1/3 py-6 mx-5 flex justify-center">
-                <StripeLogo />
+              <div className="w-1/2 py-6 flex justify-center">
+                <a href="https://www.creativemules.com/"><CreativeMulesLogo /></a>
               </div>
 
-              <div className="w-1 sm:w-1/3 py-6 mx-5 flex justify-center">
-                <SpotifyLogo />
-              </div>
-              <div className="w-1 sm:w-1/3  py-6 mx-5 flex  justify-center">
-                <SlackLogo /> 
-              </div> */}
             </div>
           </div>
         </div>
