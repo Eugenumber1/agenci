@@ -12,6 +12,7 @@ export const Hero = () => {
   className="w-screen h-screen flex justify-center items-center bg-customDarkBg1 mb-20 md:mb-12 lg:mb-8 xl:mb-10 2xl:mb-16 hero-bg-gradient pb-12 sm:pb-16 md:pb-20 lg:pb-0"
   id="home"
 >
+  
   <div className="w-full md:w-[700px] xl:w-[800px] flex flex-col justify-center items-center pt-16 md:pt-16 lg:pt-20 text-center">
         <motion.div
           initial={{ opacity: 0, y: 10 }}
