@@ -5,7 +5,7 @@ import {AnyHouseLogo} from "../assets/logos/AnyHouseLogo"
 import { CreativeMulesLogo } from "../assets/logos/CMLogo";
 
 export const Brands = () => (
-  <section id="brands" className="py-12 sm:py-24 h-1/3 bg-customDarkBg1 w-full mt-16 mb-16">
+  <section id="clients" className="py-12 sm:py-24 h-1/2 bg-customDarkBg1 w-full mt-16 mb-10">
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -26,16 +26,16 @@ export const Brands = () => (
           </div>
           <div className="w-2/3 sm:w-[620px] lg:w-1/2 mx-auto lg:mx-0 lg:pl-10">
             <div className="flex flex-wrap -m-4">
-              <div className="w-1/2 py-6 flex justify-center">
+              <div className="w-full sm:w-1/2 py-6 flex justify-center">
                 <a href="https://www.zgt.nl/"><ZgtLogo /></a>
               </div>
-              <div className="w-1/2 py-6 flex justify-center">
+              <div className="w-full sm:w-1/2 py-6 flex justify-center">
                 <a href="https://anyhouse.me/"><AnyHouseLogo /></a>
               </div>
-              <div className="w-1/2 py-6 flex justify-center">
+              <div className="w-full sm:w-1/2 py-6 flex justify-center">
                 <a href="https://www.waitler.com/"><WaitlerLogo/></a>
               </div>
-              <div className="w-1/2 py-6 flex justify-center">
+              <div className="w-full sm:w-1/2 py-6 flex justify-center">
                 <a href="https://www.creativemules.com/"><CreativeMulesLogo /></a>
               </div>
 
