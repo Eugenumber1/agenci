@@ -1,13 +1,15 @@
-# Tailcast
+# AgencI 
 
-Dark themed website template built on AstroJS, designed for technological startup business.
+Dark themed website for [https://agenci.solutions/](https://agenci.solutions/) built on AstroJS and customized with React.
 
 ## Tech stack:
 
 Astro, React, Tailwind, Framer Motion
 
 ## Live link
-[https://tailcast.vercel.app/](https://tailcast.vercel.app/)
+[https://tailcast.vercel.app/](https://tailcast.vercel.app/) - theme link
+
+[https://agenci.solutions/](https://agenci.solutions/) - actual website hosted on vercel
 
 ##  Project Structure
 
